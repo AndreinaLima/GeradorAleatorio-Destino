@@ -43,7 +43,7 @@ function fazerPergunta() {
   elementoResposta.style.opacity = 1
 
   // sumir a resposta depois de 3 segundos
-  setTimeout(function () {
+  setTimeout function () {
     elementoResposta.style.opacity = 0
     buttonPerguntar.removeAttribute("disabled")
   }, 3000)
